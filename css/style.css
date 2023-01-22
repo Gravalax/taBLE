@@ -1,0 +1,170 @@
+/**===
+
+===**/
+
+body {
+	margin: 0;
+
+	font-size: 13px;
+
+	background-color: #4F565E;
+}
+
+*,
+*:after,
+*:before { box-sizing: border-box;}
+
+.page {
+	margin: 0 auto;
+	max-width: 1000px;
+	min-height: 1000px;
+
+	background-color: #fff;
+}
+
+
+
+/** 2. Table 
+ ==============**/
+.box-table {
+	padding-top: 30px;
+}
+.table {
+	margin: 0 auto;
+
+	color: #fff;
+
+	border-collapse: collapse;
+}
+
+/** 2.1 Table head
+===============**/
+.thead {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.table-date-1 {
+	background-color: #7887AB;
+	border-radius: 15px 0 0 0 ;
+}
+
+.table-date-2 {
+	background-color: #4F628E;
+}
+
+.table-date-3 {
+	background-color: #2E4172;
+}
+
+.table-date-4 {
+	background-color: #162955;
+}
+
+.table-date-5 {
+	background-color: #061539;
+	border-radius: 0 15px 0 0;
+}
+
+.table-date {
+	padding: 20px 40px 18px;
+
+	text-align: center;
+}
+
+.word-in-top {
+	padding-bottom: 20px;
+}
+
+.price {
+	font-size: 36px;
+}
+
+
+/** 2.2 Table body
+================**/
+
+
+.tbody {
+	color: black;
+}
+
+.tbody td,
+.tfoot td {
+	width: 157px;
+	height: 50px;
+
+	text-align: center;
+}
+
+.tbody > tr > td:first-child {
+	width: 265px;
+	padding-left: 30px;
+
+	text-align: left;
+}
+
+.tbody > tr:nth-child(2n+1) > td:nth-child(2n + 1) {
+	background-color: #DBDBDB;
+}
+
+.tbody > tr:nth-child(2n+1) > td:nth-child(2n) {
+	background-color: #E7E7E7;
+}
+
+.tbody > tr:nth-child(2n) > td:nth-child(2n + 1) {
+	background-color: #ECECEC;
+}
+
+.tbody > tr:nth-child(2n) > td:nth-child(2n) {
+	background-color: #F3F3F3;
+}
+
+/** 2.3 Table foot**/
+
+.tfoot tr td:last-child {
+	border-radius: 0 0 15px 0;
+}
+
+.tfoot tr td:first-child {
+	border-radius: 0 0 0 15px;
+}
+
+.tfoot > tr > td:nth-child(2n + 1) {
+	background-color: #DBDBDB;
+}
+
+.tfoot > tr > td:nth-child(2n) {
+	background-color: #E7E7E7;
+}
+
+/** 2.3.1 Table submit
+ =======================**/
+
+ .submit-table {
+ 	padding: 8px 35px;
+
+ 	font-size: 12px;
+ 	color: #686867;
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ 	text-decoration: none;
+
+
+ 	background-color: #D3D3D3;
+ 	border:1px solid #AAAAAA;
+ }
+
+ .submit-table:hover {
+ 	color: #444;
+
+ 	background-color: #bfbfbf;
+ }
+
+ .submit-table:active {
+ 	color: ##2e2e2e;
+
+ 	background-color: #999;
+
+ 	transition: .3 inline;
+ }
